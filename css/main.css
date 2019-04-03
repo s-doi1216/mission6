@@ -1,0 +1,167 @@
+.userinfo p{
+    margin-bottom: 15px;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+ table {
+     border: 1px solid #ccc; 
+     border-collapse: collapse; 
+     margin-bottom: 1rem;
+     width: 400px;
+     height: 400px;
+     margin: 20px auto;
+
+     } 
+ td {
+     border: 1px solid #ccc;
+     width: calc(100%/7);
+     text-align: right; 
+     vertical-align: bottom; 
+     padding: 2px;
+     font-size: 1.5rem;
+     overflow: hidden;/*aタグをtd全体にするため*/
+} 
+ th {
+     border: 1px solid #ccc;
+     color: #333; 
+     background-color: #F0F0F0; 
+     padding: 5px;
+     height: 2.5rem;
+     font-size: 1.8rem;
+     } 
+.a{
+    background-color: #ff9f9f !important;}
+.b{
+    background-color: #8dcaff !important;}
+.c{
+    background-color: #93ff9f !important;}
+.d{
+    background-color: #db9cef;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.e{
+    background-color: #fcfcfc;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.e:hover{
+    opacity: 0.85;
+}
+.a_d{
+    /*aタグをtd全体にするため*/
+    margin: -75px;
+    padding: 75px 75px;
+    text-decoration: none;
+    color: #333;
+}
+.d:hover{
+    opacity: 0.85;
+}
+.wrap{
+    width: 500px;
+    margin: 20px auto;
+}
+.calender_info{
+    margin: 0 auto 30px;
+    width: 400px;
+    text-align: right;
+}
+
+.calender_info span{
+    padding: 3px;
+    color: #333;
+}
+.form{
+    width: 400px;
+    font-size: 1.2rem;
+    margin: 0 auto 20px;
+}
+.form p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.form .column{
+    margin: 5px 0;
+}
+#button,#submit{
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    border-style: none;
+    border: 1px solid #ccc;
+    transition: 0.15s;
+}
+#button:hover,#submit:hover{
+    color: #fff;
+    background: #356ace;
+}
+
+.tab_menu{border-bottom: 1px solid #000}
+.tab_menu li{
+    color: #333;
+    float: left;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    list-style: none;
+    transition: 0.15s;
+    display: inline-block;
+    width: 50%;background: #d9d9d9;
+    border-bottom: 3px solid #356ace;line-height: 18px;
+    font-size: 2.0rem;text-align: center;
+    font-weight: bold;;
+    text-align: center;
+}
+.tab_menu li.active{
+    color: #fff;
+    background: #000;
+    cursor: auto;
+    background: #356ace
+}
+.tab_menu li:hover{opacity: 0.8}
+
+.area .div{display: none;}
+.area .div.show{
+    display: block;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    }
+/*全体用の詳細部分*/
+.info_d{
+    background-color: #db9cef;
+
+}
+.info{
+    width: 400px;
+    margin: 10px auto;
+}
+.info p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px;
+}
+.list{
+    float: left;
+    width: calc(100%/3);
+    min-height: 44px;
+    text-align: center;
+    background-color: #3050b9;
+    color: #333;
+    font-size: 1.2rem;
+}
+.list span{
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #333;
+}
+.list ul{
+    padding-bottom: 5px;
+}
+.list ul li{
+    padding-top: 5px;
+    font-size: 1.1rem;
+}

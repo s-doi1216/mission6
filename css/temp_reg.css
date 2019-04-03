@@ -1,0 +1,90 @@
+.main {
+    background-color: #fff;
+    width: 400px;
+    height: 450px;
+    margin: 7rem auto;
+    border-radius: 1.5rem;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    position: relative;
+}
+
+form{
+    padding-top: 40px;
+}
+
+input{
+    text-align: center;
+}
+
+.sign_in {
+    text-align: center;
+    padding-top: 40px;
+    color: #356ace;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.input {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: bold;
+font-size: 1.4rem;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border-radius: 20px;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+}
+
+
+.input:active{
+    border: 2px solid rgba(0, 0, 0, 0.18) ;
+
+}
+
+.submit {
+    border-radius: 20px;
+    color: #fff;
+    background-color: #356ace;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.submit:hover{
+    background-color: #d15252;
+}
+
+#to_loginpage{
+    width: 400px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+#link{
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #356ace;
+}
+#link:hover{
+    color: #d15252;
+}
+
+.err_mes{
+    color: red;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 1.2rem;
+}
+
