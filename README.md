@@ -7,4 +7,5 @@ PHPとMySQLを利用したアルバイトのシフト希望共有を想定した
 - HTML
 - PHP
 - MySQL
+- JavaScript
 
